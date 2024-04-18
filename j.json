@@ -1,0 +1,227 @@
+{
+    "categories": {
+      "Personal Events": {
+        "events": [
+          {
+            "id": 1,
+            "title": "Birthday",
+            "description": "Celebrating someone's birthday.",
+            "images": [ "https://firebasestorage.googleapis.com/v0/b/easyeventsapp-4f666.appspot.com/o/Fusion%2FBdayFusion.jpg?alt=media&token=c9090b17-7348-4c82-b064-ecd9d3b4ba9d",
+            "https://firebasestorage.googleapis.com/v0/b/easyeventsapp-4f666.appspot.com/o/Fusion%2FbdayFusion2.jpg?alt=media&token=1b7cc068-5e14-47f1-86ae-4f79ea3963b1"
+         ],
+            "event_fee": "100$",
+            "guests": 100,
+            "created_by_email": "example@email.com",
+            "created_by_name": "John Doe",
+            "date": "2024-05-10",
+            "time": "10:00 AM to 11:00 AM",
+            "location": "123 Main St, City",
+            "event_id": "BD2024",
+            "organizer": {
+              "name": "Birthday Party Planners",
+              "email": "birthday@example.com",
+              "contact": "+1234567890",
+              "address": "456 Elm St, City",
+              "in_field": "2 years",
+              "events_done": 170,
+              "rating": 4.5
+            }
+          },
+          {
+            "id": 2,
+            "title": "Wedding",
+            "description": "Joining two people in marriage.",
+            "images": ["https://firebasestorage.googleapis.com/v0/b/easyeventsapp-4f666.appspot.com/o/Oasis%2FwedOasis.jpg?alt=media&token=72f6996a-4aa0-4176-8183-73e88f877a3e",
+            "https://firebasestorage.googleapis.com/v0/b/easyeventsapp-4f666.appspot.com/o/Oasis%2FwedOasis2.jpg?alt=media&token=8b5b88ff-3f2b-4a9f-9101-de5af744379e"
+         ],
+            "event_fee": "150$",
+            "guests": 200,
+            "created_by_email": "example2@email.com",
+            "created_by_name": "Jane Smith",
+            "date": "2024-08-20",
+            "time": "12:00 PM to 5:00 PM",
+            "location": "456 Oak Ave, Town",
+            "event_id": "WD2024",
+            "organizer": {
+              "name": "Dream Weddings Inc.",
+              "email": "weddings@example.com",
+              "contact": "+9876543210",
+              "address": "789 Maple St, Town",
+              "in_field": "5 years",
+              "events_done": 200,
+              "rating": 4.7
+            }
+          },
+          {
+            "id": 3,
+            "title": "Anniversary",
+            "description": "Celebrating a milestone in a relationship.",
+            "images": ["url5", "url6"],
+            "event_fee": "50$",
+            "guests": 50,
+            "created_by_email": "example3@email.com",
+            "created_by_name": "Alice Johnson",
+            "date": "2024-11-15",
+            "time": "7:00 PM to 10:00 PM",
+            "location": "789 Elm Rd, Village",
+            "event_id": "AN2024",
+            "organizer": {
+              "name": "Milestone Celebrations Co.",
+              "email": "celebrations@example.com",
+              "contact": "+2468135790",
+              "address": "321 Cedar St, Village",
+              "in_field": "2 years",
+              "events_done": 170,
+              "rating": 4.5
+            }
+          }
+        ]
+      },
+      "Corporate Events": {
+        "events": [
+          {
+            "id": 4,
+            "title": "Conference",
+            "description": "A meeting of people who discuss a particular topic.",
+            "images": ["url7", "url8"],
+            "event_fee": "200$",
+            "guests": 300,
+            "created_by_email": "corporate@email.com",
+            "created_by_name": "Corporate Events Inc.",
+            "date": "2024-06-30",
+            "time": "9:00 AM to 5:00 PM",
+            "location": "Conference Center, City",
+            "event_id": "CONF2024",
+            "organizer": {
+              "name": "Conference Masters",
+              "email": "conference@example.com",
+              "contact": "+1357924680",
+              "address": "159 Pine St, City",
+              "in_field": "3 years",
+              "events_done": 100,
+              "rating": 4.2
+            }
+          },
+          {
+            "id": 5,
+            "title": "Seminar",
+            "description": "A conference or other meeting for discussion or training.",
+            "images": ["url9", "url10"],
+            "event_fee": "Free",
+            "guests": 150,
+            "created_by_email": "seminar@email.com",
+            "created_by_name": "Seminar Co.",
+            "date": "2024-09-10",
+            "time": "2:00 PM to 4:00 PM",
+            "location": "Seminar Hall, Town",
+            "event_id": "SEM2024",
+            "organizer": {
+              "name": "Knowledge Hub Inc.",
+              "email": "knowledgehub@example.com",
+              "contact": "+9876543210",
+              "address": "456 Oak St, Town",
+              "in_field": "4 years",
+              "events_done": 150,
+              "rating": 4.6
+            }
+          },
+          {
+            "id": 6,
+            "title": "Webinar",
+            "description": "A seminar or other presentation that takes place on the Internet.",
+            "images": ["url11", "url12"],
+            "event_fee": "Free",
+            "guests": 500,
+            "created_by_email": "webinar@email.com",
+            "created_by_name": "Webinar Corp.",
+            "date": "2024-12-05",
+            "time": "10:00 AM to 11:30 AM",
+            "location": "Online",
+            "event_id": "WEB2024",
+            "organizer": {
+              "name": "Webinar Experts",
+              "email": "webinarexperts@example.com",
+              "contact": "+3692581470",
+              "address": "789 Pine St, City",
+              "in_field": "2 years",
+              "events_done": 170,
+              "rating": 4.4
+            }
+          }
+        ]
+      },
+      "Public Events": {
+        "events": [
+          {
+            "id": 7,
+            "title": "Press Meet",
+            "description": "A meeting arranged for the media to ask questions.",
+            "images": ["url13", "url14"],
+            "event_fee": "Free",
+            "guests": 50,
+            "created_by_email": "press@email.com",
+            "created_by_name": "Press Agency",
+            "date": "2024-07-15",
+            "time": "11:00 AM to 12:00 PM",
+            "location": "Press Room, City Hall",
+            "event_id": "PRESS2024",
+            "organizer": {
+              "name": "Press Relations Group",
+              "email": "pressrelations@example.com",
+              "contact": "+1234567890",
+              "address": "147 Oak St, City",
+              "in_field": "3 years",
+              "events_done": 150,
+              "rating": 4.6
+            }
+          },
+          {
+            "id": 8,
+            "title": "Opening",
+            "description": "The act or instance of beginning.",
+            "images": ["url15", "url16"],
+            "event_fee": "Free",
+            "guests": 1000,
+            "created_by_email": "opening@email.com",
+            "created_by_name": "Opening Committee",
+            "date": "2024-10-01",
+            "time": "6:00 PM to 9:00 PM",
+            "location": "City Square",
+            "event_id": "OPEN2024",
+            "organizer": {
+              "name": "City Events Committee",
+              "email": "cityevents@example.com",
+              "contact": "+9876543210",
+              "address": "369 Elm St, City",
+              "in_field": "4 years",
+              "events_done": 120,
+              "rating": 4.3
+            }
+          },
+          {
+            "id": 9,
+            "title": "Public Meeting",
+            "description": "A gathering of people for the discussion of public matters.",
+            "images": ["url17", "url18"],
+            "event_fee": "Free",
+            "guests": 2000,
+            "created_by_email": "publicmeeting@email.com",
+            "created_by_name": "Citizen Group",
+            "date": "2024-12-20",
+            "time": "2:00 PM to 5:00 PM",
+            "location": "Town Hall",
+            "event_id": "MEET2024",
+            "organizer": {
+              "name": "Town Council",
+              "email": "towncouncil@example.com",
+              "contact": "+3698521470",
+              "address": "258 Pine St, Town",
+              "in_field": "5 years",
+              "events_done": 180,
+              "rating": 4.7
+            }
+          }
+        ]
+      }
+    }
+  }
